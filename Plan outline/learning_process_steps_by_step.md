@@ -1,8 +1,11 @@
-Étape 1 : Les Fondations du Design (UI/UX)
+## Étape 1 : Les Fondations du Design (UI/UX)
 Avant de coder, vous devez apprendre à structurer visuellement votre idée. [1]
-Le Wireframing : Apprendre à dessiner des squelettes en noir et blanc de vos pages.
-L'Architecture de l'information : Comprendre comment organiser le contenu logiquement.
-Le Design Système basique : Maîtriser le choix d'une palette de couleurs et de deux polices maximum
+- **Le Wireframing** : Apprendre à dessiner des squelettes en noir et blanc de vos pages.
+- **L'Architecture de l'information** : Comprendre comment organiser le contenu logiquement.
+- **Le Design Système basique** : Maîtriser le choix d'une palette de couleurs et de deux polices maximum
+
+---
+
 ## Étape 2 : Le Visuel de l'Application (Frontend)
 
 C'est ce que l'utilisateur voit et utilise sur son écran.
