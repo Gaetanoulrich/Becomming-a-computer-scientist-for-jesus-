@@ -1,1 +1,159 @@
 
+Java Introduction 
+
+It is used for:
+
+Mobile applications (specially Android apps)
+Desktop applications
+Web applications
+Web servers and application servers
+Games
+Database connection
+And much, much more!
+
+
+Java Quickstart
+
+In Java, every application begins with a class name, and that class must match the filename.
+
+Let's create our first Java file, called Main.java, which can be done in any text editor (like Notepad).
+
+The file should contain a "Hello World" message, which is written with the following code:
+
+Code:
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+The name of the Java file must match the class name. So if your class is called Main, the file must be saved as Main.java. This is because Java uses the class name to find and run your code. If the names don't match, Java will give an error and the program will not run.
+
+When saving the file, save it using the class name and add .java to the end of the filename. 
+
+The main Method
+
+The main() method is required in every Java program. It is where the program starts running:
+
+public static void main(String[] args)
+Any code placed inside the main() method will be executed.
+
+Java Variables or also called Primitive data types includes byte, short, int, long, float, double, boolean and char          
+and    Non-primitive data types - such as String, Arrays and Classes
+                                                                    
+
+Variables are containers for storing data values.
+Example
+int myNum = 5;
+float myFloatNum = 5.99f;
+char myLetter = 'D';
+boolean myBool = true;
+String myText = "Hello";
+Final Variables
+
+concatenation
+
+Java Identifiers
+All Java variables must be identified with unique names.
+
+These unique names are called identifiers.
+
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+
+Java Type Casting
+Type casting means converting one data type into another. For example, turning an int into a double.
+
+In Java, there are two main types of casting:
+
+Widening Casting (automatic) - converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+
+Narrowing Casting (manual) - converting a larger type to a smaller type size
+double -> float -> long -> int -> char -> short -> byte
+
+Java Strings
+More String Methods
+The toUpperCase() method converts a string to upper case letters.
+The toLowerCase() method converts a string to lower case letters.
+txt.length());
+String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+You can use the charAt() method to access a character at a specific position in a string:
+
+Example
+String txt = "Hello";
+System.out.println(txt.charAt(0));  // H
+System.out.println(txt.charAt(4));  // o
+Comparing Strings
+To compare two strings, you can use the equals() method:
+Removing Whitespace
+The trim() method removes whitespace from the beginning and the end of a string:
+
+Example
+String txt = "   Hello World   ";
+System.out.println("Before: [" + txt + "]");
+System.out.println("After:  [" + txt.trim() + "]");
+
+Concatenation in Sentences
+Example
+String name = "John";
+int age = 25;
+System.out.println("My name is " + name + " and I am " + age + " years old.");
+
+The concat() Method
+Example
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
+
+
+Strings - Special Characters
+String txt = "We are the so-called "Vikings" from the north.";
+\'	'	Single quote
+\"	"	Double quote
+\\    Backslash
+
+
+Java If ... Else
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if both conditions are false
+}
+
+
+
+Java Nested If
+
+if (condition1) {
+  // code to run if condition1 is true
+  if (condition2) {
+    // code to run if both condition1 and condition2 are true
+  }
+}
+
+Example
+int myNum = 10; // Is this a positive or negative number?
+
+if (myNum > 0) {
+  System.out.println("The value is a positive number.");
+} else if (myNum < 0) {
+  System.out.println("The value is a negative number.");
+} else {
+  System.out.println("The value is 0.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
