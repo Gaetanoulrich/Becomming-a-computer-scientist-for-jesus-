@@ -147,12 +147,52 @@ if (myNum > 0) {
 }
 
 
+Notes
+You can nest as many if statements as you want, but avoid making the code too deep - it can become hard to read.
+Nested if is often used together with else and else if for more complex decision making.
+
+
+Java Logical Operators in Conditions
+
+You can combine or reverse conditions using logical operators. These work together with if, else, and else if to build more complex decisions.
+
+&& (AND) - all conditions must be true
+|| (OR) - at least one condition must be true
+! (NOT) - reverses a condition (true = false, false = true)
 
 
 
+if (a > b && c > a) {
+  System.out.println("Both conditions are true");
+}
 
+Java Switch Statements
 
+Syntax
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+This is how it works:
 
+The switch expression is evaluated once.
+The result is compared with each case value.
+If there is a match, the matching block of code runs.
+The break statement stops the switch after the matching case has run.
+The default statement runs if there is no match.
+
+Java While Loop
+
+Loops
+Loops can execute a block of code as long as a specified condition is true.
+
+Loops are handy because they save time, reduce errors, and they make code more readable.
 
 
 
